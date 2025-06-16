@@ -1,4 +1,4 @@
-# 🎨 Virtual Painter using OpenCV
+#  Virtual Painter using OpenCV
 
 This project is a **Virtual Painter** built using **OpenCV and Python**, allowing you to draw in the air using a colored marker and your webcam. The drawing happens on the screen by detecting objects of specific colors in real-time using HSV color thresholds.
 
@@ -6,7 +6,7 @@ Use the **HSV Calibration Tool** (provided as a separate script) to determine ac
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Real-time object detection and tracking using HSV color ranges
 - Paint virtually on your webcam feed using a colored marker
@@ -19,13 +19,13 @@ Use the **HSV Calibration Tool** (provided as a separate script) to determine ac
 
 ---
 
-## 📹 Demo
+##  Demo
 
 
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 1. **HSV Calibration (`color_pick.py`)**  
    Use this tool to tune HSV values using interactive trackbars. It lets you see:
@@ -43,11 +43,25 @@ Use the **HSV Calibration Tool** (provided as a separate script) to determine ac
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/YOUR_USERNAME/virtual-painter.git
 cd virtual-painter
+```
+2. **Install the dependencies**
+```bash   
+ pip install opencv-python numpy
+```
+
+---
+
+##  Future Ideas
+
+  - Add gesture recognition to switch colors or clear screen
+  - Option to save the drawing to file
+  - Use hand-tracking instead of color
+
 
 
